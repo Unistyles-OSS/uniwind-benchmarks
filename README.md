@@ -8,7 +8,6 @@ Benchmark repository for different React Native styling libraries.
 uniwind-benchmarks/
 ├── apps/                    # React Native applications
 │   ├── nativewind4/        # NativeWind v4 benchmark app
-│   ├── nativewind5/        # NativeWind v5 benchmark app
 │   ├── stylesheet/         # React Native StyleSheet benchmark app
 │   ├── unistyles3/         # Unistyles v3 benchmark app
 │   ├── uniwind/            # Uniwind benchmark app
@@ -30,7 +29,7 @@ uniwind-benchmarks/
 
 ### Installation
 
-```bash
+```bash 
 # Install all dependencies
 bun install
 ```
