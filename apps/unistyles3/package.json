@@ -10,7 +10,10 @@
   "dependencies": {
     "@uniwind-benchmarks/benchmark": "workspace:*",
     "react": "19.1.1",
-    "react-native": "0.82.0"
+    "react-native": "0.82.0",
+    "react-native-edge-to-edge": "1.7.0",
+    "react-native-nitro-modules": "0.30.1",
+    "react-native-unistyles": "3.0.15"
   },
   "devDependencies": {
     "@babel/core": "7.28.4",

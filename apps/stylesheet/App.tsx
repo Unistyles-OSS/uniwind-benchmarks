@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 16,
+    color: '#000',
   },
   statsContainer: {
     padding: 16,
@@ -79,15 +80,16 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     textAlign: 'center',
     marginBottom: 4,
+    color: '#000',
   },
   statsSubtext: {
     fontSize: 14,
-    color: '#666',
+    color: '#000',
     textAlign: 'center',
     marginTop: 8,
   },
   text: {
-    color: '#fff',
+    color: '#000',
     fontSize: 16,
     fontWeight: 'bold',
   },

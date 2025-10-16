@@ -1,5 +1,6 @@
 import { useBenchmark } from '@uniwind-benchmarks/benchmark'
-import { ScrollView, StyleSheet, Text, View } from 'react-native'
+import { ScrollView, Text, View } from 'react-native'
+import { StyleSheet } from 'react-native-unistyles'
 
 function App() {
   const { isComplete, currentRun, totalRuns, average, min, max, itemsCount, renderKey } =
@@ -43,7 +44,7 @@ function App() {
   )
 }
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create((theme) => ({
   container: {
     flex: 1,
     marginTop: 100,
@@ -58,7 +59,7 @@ const styles = StyleSheet.create({
     width: '32%',
     height: 100,
     borderRadius: 16,
-    backgroundColor: '#273c75',
+    backgroundColor: theme.colors.primary,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -67,10 +68,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 16,
+    color: theme.colors.typography,
   },
   statsContainer: {
     padding: 16,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: theme.colors.gray,
     borderRadius: 8,
     marginBottom: 16,
   },
@@ -79,18 +81,19 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     textAlign: 'center',
     marginBottom: 4,
+    color: theme.colors.typography,
   },
   statsSubtext: {
     fontSize: 14,
-    color: '#666',
+    color: theme.colors.typography,
     textAlign: 'center',
     marginTop: 8,
   },
   text: {
-    color: '#fff',
+    color: theme.colors.typography,
     fontSize: 16,
     fontWeight: 'bold',
   },
-})
+}))
 
 export default App

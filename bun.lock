@@ -82,6 +82,9 @@
         "@uniwind-benchmarks/benchmark": "workspace:*",
         "react": "19.1.1",
         "react-native": "0.82.0",
+        "react-native-edge-to-edge": "1.7.0",
+        "react-native-nitro-modules": "0.30.1",
+        "react-native-unistyles": "3.0.15",
       },
       "devDependencies": {
         "@babel/core": "7.28.4",
@@ -1047,6 +1050,12 @@
     "react-is": ["react-is@18.3.1", "", {}, "sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg=="],
 
     "react-native": ["react-native@0.82.0", "", { "dependencies": { "@jest/create-cache-key-function": "^29.7.0", "@react-native/assets-registry": "0.82.0", "@react-native/codegen": "0.82.0", "@react-native/community-cli-plugin": "0.82.0", "@react-native/gradle-plugin": "0.82.0", "@react-native/js-polyfills": "0.82.0", "@react-native/normalize-colors": "0.82.0", "@react-native/virtualized-lists": "0.82.0", "abort-controller": "^3.0.0", "anser": "^1.4.9", "ansi-regex": "^5.0.0", "babel-jest": "^29.7.0", "babel-plugin-syntax-hermes-parser": "0.32.0", "base64-js": "^1.5.1", "commander": "^12.0.0", "flow-enums-runtime": "^0.0.6", "glob": "^7.1.1", "hermes-compiler": "0.0.0", "invariant": "^2.2.4", "jest-environment-node": "^29.7.0", "memoize-one": "^5.0.0", "metro-runtime": "^0.83.1", "metro-source-map": "^0.83.1", "nullthrows": "^1.1.1", "pretty-format": "^29.7.0", "promise": "^8.3.0", "react-devtools-core": "^6.1.5", "react-refresh": "^0.14.0", "regenerator-runtime": "^0.13.2", "scheduler": "0.26.0", "semver": "^7.1.3", "stacktrace-parser": "^0.1.10", "whatwg-fetch": "^3.0.0", "ws": "^6.2.3", "yargs": "^17.6.2" }, "peerDependencies": { "@types/react": "^19.1.1", "react": "^19.1.1" }, "optionalPeers": ["@types/react"], "bin": { "react-native": "cli.js" } }, "sha512-E+sBFDgpwzoZzPn86gSGRBGLnS9Q6r4y6Xk5I57/QbkqkDOxmQb/bzQq/oCdUCdHImKiow2ldC3WJfnvAKIfzg=="],
+
+    "react-native-edge-to-edge": ["react-native-edge-to-edge@1.7.0", "", { "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-ERegbsq28yoMndn/Uq49i4h6aAhMvTEjOfkFh50yX9H/dMjjCr/Tix/es/9JcPRvC+q7VzCMWfxWDUb6Jrq1OQ=="],
+
+    "react-native-nitro-modules": ["react-native-nitro-modules@0.30.1", "", { "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-/m1kIUx4qQonqauVLn/DdkXFTKQI180VUJz7G2P/4Jab3NfUqdrFg6ixpf9bH1YXsXb92hK/8epTgl0B8OPxfw=="],
+
+    "react-native-unistyles": ["react-native-unistyles@3.0.15", "", { "peerDependencies": { "@react-native/normalize-colors": "*", "react": "*", "react-native": ">=0.76.0", "react-native-edge-to-edge": "*", "react-native-nitro-modules": "*", "react-native-reanimated": "*" }, "optionalPeers": ["react-native-reanimated"] }, "sha512-mbALO/lTc1oCWrCww79Zzipr1uVoePE2VXXgJO7zOKApK/hjBas03zpe3C4H6w7gBnD/z6TJYwTwQZt/yAWBeQ=="],
 
     "react-refresh": ["react-refresh@0.14.2", "", {}, "sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA=="],
 
