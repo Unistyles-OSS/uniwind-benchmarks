@@ -1,0 +1,15 @@
+{
+  "name": "@uniwind-benchmarks/benchmark",
+  "version": "1.0.0",
+  "description": "Shared benchmark utilities for React Native styling libraries",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["benchmark", "utilities"],
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "5.7.2"
+  }
+}

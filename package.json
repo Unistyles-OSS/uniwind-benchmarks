@@ -1,0 +1,28 @@
+{
+  "name": "uniwind-benchmarks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Benchmark repository for different React Native styling libraries",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unistyles-OSS/uniwind-benchmarks.git"
+  },
+  "keywords": ["react-native", "benchmark", "styling", "nativewind", "unistyles", "uniwind"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unistyles-OSS/uniwind-benchmarks/issues"
+  },
+  "homepage": "https://github.com/Unistyles-OSS/uniwind-benchmarks#readme",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "typescript": "5.7.2"
+  }
+}
