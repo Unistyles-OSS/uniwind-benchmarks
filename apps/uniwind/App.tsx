@@ -20,7 +20,7 @@ function App() {
           </Text>
         </View>
       ) : (
-        <View className="p-4 bg-primary rounded-lg mb-4">
+        <View className="p-4 bg-gray rounded-lg mb-4">
           <Text className="text-base text-typography font-semibold text-center mb-1">
             ✓ Benchmark Complete
           </Text>

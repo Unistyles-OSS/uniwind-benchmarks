@@ -131,6 +131,8 @@
         "@uniwind-benchmarks/benchmark": "workspace:*",
         "react": "19.1.1",
         "react-native": "0.82.0",
+        "tailwindcss": "4.1.14",
+        "uniwind": "1.0.0-beta.8",
       },
       "devDependencies": {
         "@babel/core": "7.28.4",
@@ -1428,6 +1430,8 @@
     "uniwind/uniwind": ["uniwind@1.0.0-beta.8", "", { "dependencies": { "@tailwindcss/node": "4.1.14", "@tailwindcss/oxide": "4.1.14", "chokidar": "4.0.3", "culori": "4.0.2" }, "peerDependencies": { "chalk": ">=2", "lightningcss": ">=1.30.0", "postcss": ">=8", "react": ">=19.0.0", "react-native": ">=0.81.0", "tailwindcss": ">=4" } }, "sha512-WkJUsN9ywPq9M7ui42MjxlO0a8DsyXmnyQu7utAoP5qByyRteQ+DD5q8JwgQ/x10/d6tjHsNL0a/YyM0+CXZiA=="],
 
     "uniwind-pro/typescript": ["typescript@5.8.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ=="],
+
+    "uniwind-pro/uniwind": ["uniwind@1.0.0-beta.8", "", { "dependencies": { "@tailwindcss/node": "4.1.14", "@tailwindcss/oxide": "4.1.14", "chokidar": "4.0.3", "culori": "4.0.2" }, "peerDependencies": { "chalk": ">=2", "lightningcss": ">=1.30.0", "postcss": ">=8", "react": ">=19.0.0", "react-native": ">=0.81.0", "tailwindcss": ">=4" } }, "sha512-WkJUsN9ywPq9M7ui42MjxlO0a8DsyXmnyQu7utAoP5qByyRteQ+DD5q8JwgQ/x10/d6tjHsNL0a/YyM0+CXZiA=="],
 
     "@istanbuljs/load-nyc-config/find-up/locate-path": ["locate-path@5.0.0", "", { "dependencies": { "p-locate": "^4.1.0" } }, "sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g=="],
 
