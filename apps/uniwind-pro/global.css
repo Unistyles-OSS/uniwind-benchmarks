@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import "uniwind-pro";
+@import "@unistyles-oss/uniwind";
 
 @layer theme {
   :root {
