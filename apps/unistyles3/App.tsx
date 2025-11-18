@@ -24,7 +24,7 @@ function App() {
           <Text style={styles.statsText}>Min: {min.toFixed(2)}ms</Text>
           <Text style={styles.statsText}>Max: {max.toFixed(2)}ms</Text>
           <Text style={styles.statsSubtext}>
-            {itemsCount} views × {totalRuns} runs
+            {itemsCount * 2 + 3} views × {totalRuns} runs
           </Text>
         </View>
       )}

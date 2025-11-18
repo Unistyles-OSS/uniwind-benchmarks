@@ -33,7 +33,7 @@ uniwind-benchmarks/
 │   ├── stylesheet/         # React Native StyleSheet benchmark app
 │   ├── unistyles3/         # Unistyles v3 benchmark app
 │   ├── uniwind/            # Uniwind benchmark app
-│   └── uniwind-pro/        # Uniwind Pro benchmark app (in development)
+│   └── uniwind-pro/        # Uniwind Pro benchmark app
 ├── packages/
 │   └── benchmark/          # Shared benchmark utilities
 ├── biome.json              # Biome configuration (linting + formatting)

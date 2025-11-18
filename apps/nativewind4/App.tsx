@@ -38,7 +38,7 @@ function App() {
               Max: {max.toFixed(2)}ms
             </Text>
             <Text className="text-[14px] text-typography text-center mt-2">
-              {itemsCount} views × {totalRuns} runs
+              {itemsCount * 2 + 3} views × {totalRuns} runs
             </Text>
           </View>
         )}
