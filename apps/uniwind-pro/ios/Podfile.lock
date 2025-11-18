@@ -2642,7 +2642,7 @@ DEPENDENCIES:
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNWorklets (from `../node_modules/react-native-worklets`)
   - SocketRocket (~> 0.7.1)
-  - Uniwind (from `../node_modules/uniwind-pro`)
+  - "Uniwind (from `../node_modules/@unistyles-oss/uniwind`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -2802,7 +2802,7 @@ EXTERNAL SOURCES:
   RNWorklets:
     :path: "../node_modules/react-native-worklets"
   Uniwind:
-    :path: "../node_modules/uniwind-pro"
+    :path: "../node_modules/@unistyles-oss/uniwind"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 

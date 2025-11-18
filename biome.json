@@ -17,7 +17,8 @@
       "**/dist",
       "**/build",
       "**/*.lock",
-      "**/bun.lockb"
+      "**/bun.lockb",
+      "**/uniwind-types.d.ts"
     ]
   },
   "formatter": {
