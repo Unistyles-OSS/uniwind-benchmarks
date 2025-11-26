@@ -25,7 +25,9 @@
     "@react-native/metro-config": "0.82.0",
     "@react-native/typescript-config": "0.82.0",
     "@types/react": "19.1.1",
+    "@react-native/codegen": "0.82.0",
     "react-native-release-profiler": "0.4.2",
+    "@react-native/gradle-plugin": "0.82.0",
     "typescript": "5.8.3"
   },
   "engines": {

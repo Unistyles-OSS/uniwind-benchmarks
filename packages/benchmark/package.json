@@ -9,6 +9,9 @@
   },
   "keywords": ["benchmark", "utilities"],
   "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "7.28.4"
+  },
   "peerDependencies": {
     "react": ">=19.0.0"
   },

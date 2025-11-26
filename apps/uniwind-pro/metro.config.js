@@ -1,5 +1,5 @@
 const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config')
-const { withUniwindConfig } = require('@unistyles-oss/uniwind/metro')
+const { withUniwindConfig } = require('uniwind-pro/metro')
 const path = require('node:path')
 
 const workspaceRoot = path.resolve(__dirname, '../../')

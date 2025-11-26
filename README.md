@@ -11,17 +11,30 @@ Uniwind and NativeWind use the exact same classNames.
 
 It’s difficult to directly compare Unistyles, Uniwind, and Nativewind to StyleSheet, as it has no features, it only serves as a baseline for performance.
 
+iOS
 
 | Library | Time | 
 | --- | --- | 
 | StyleSheet | 49.74 | 
+| Uniwind Pro beta | 57.11 | 
 | Unistyles | 66.40 | 
 | Uniwind | 81.36 | 
 | NativeWind | 197.22 | 
 
+Android
+
+| Library | Time | 
+| --- | --- | 
+| StyleSheet | 60.78 | 
+| Uniwind Pro beta | 71.19 | 
+| Unistyles | 79.69 | 
+| Uniwind | 94.14 | 
+| NativeWind | 226.66 | 
+
 <img src="./assets/stylesheet.png" width="300" alt="Stylesheet">
 <img src="./assets/unistyles3.png" width="300" alt="Unistyles">
 <img src="./assets/uniwind.png" width="300" alt="Uniwind">
+<img src="./assets/uniwind-pro.png" width="300" alt="Uniwind Pro">
 <img src="./assets/nativewind.png" width="300" alt="NativeWind">
 
 ## Repository Structure
